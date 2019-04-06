@@ -1,0 +1,4 @@
+ wget -r -np -nH http://download.bls.gov/pub/time.series/la/
+ 
+ gsutil rsync -r . gs://blsbucket
+ 
